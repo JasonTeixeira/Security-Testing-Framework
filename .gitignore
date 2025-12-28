@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+env/
+*.egg-info/
+
+# Reports
+reports/*.html
+reports/*.json
+reports/*.xml
+!reports/.gitkeep
+
+# Logs
+*.log
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
+
+# Environment
+.env
+.env.local
+
+# Security scan results
+scans/
+vulnerabilities/
